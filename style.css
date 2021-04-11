@@ -1,0 +1,311 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(netflix.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+}
+
+.header h1 {
+	display: inline-block;
+	color: white;
+	opacity: 1;
+	position: absolute;
+	right: 20px;
+	margin-top: 10px;
+	font-weight: bolder;
+	animation-name: heading;
+	animation-duration: 2s;
+}
+
+@keyframes heading {
+	0%   {top: -100px;}
+	100% {top: 0px;}
+}
+
+.header ul {
+	display: inline-block;
+	list-style: none;
+	color: white;
+}
+
+.header ul li {
+	float: left;
+	margin-right: 40px;
+	font-size: 25px;
+}
+
+.header ul a {
+	text-decoration: none;
+	color: white;
+}
+
+.header ul li:hover a {
+	opacity: 0.7;
+	text-decoration: underline;
+	font-weight: bold;
+	font-family:  "Times New Roman", Times, serif;
+}
+
+input {
+	position: absolute;
+	top: 10%;
+	right: 10px;
+	height: 24px;
+	width: 400px;
+
+}
+
+.main {
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	size: 50px;
+	font-size: 40px;
+	font-family: cursive;
+	color:white;
+
+}
+
+
+
+.block {
+	border: solid;
+	border-color: black;
+	width: 500px;
+	height: 500px;
+	background-color: transparent;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50px;
+
+}
+.A {
+	border: solid;
+	border-color: black;
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	background-image:  url(MImpossible.jpg);
+	background-size: 
+}
+
+.B {
+	border: solid;
+	border-color: black;
+	width: 200px;
+	height: 300px;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	background-image: url(equalizer.jpg);
+}
+
+.C {
+		border: solid;
+	border-color: black;
+	width: 200px;
+	height: 300px;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	background-image: url(IB.jpg);
+}
+
+.D {
+	border: solid;
+	border-color: black;
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+	top: 30%;
+	left: 70%;
+	background-image: url(poster.jpg);
+	background-repeat: no-repeat;
+	object-position: 206px;
+}
+
+.E {
+	border: solid;
+	border-color: black;
+	width: 200px;
+	height: 300px;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	background-image: url(sherlock.jpg);
+}
+
+.F {
+	border: solid;
+	border-color: black;
+	width: 200px;
+	height: 300px;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	background-image: url(Webp.net-resizeimage.jpg)
+}
+
+.G {
+	border: solid;
+	border-color: black;
+	width: 200px;
+	height: 300px;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	background-image: url(PB.jpg)
+}
+
+.H {
+	border: solid;
+	border-color: black;
+	width: 200px;
+	height: 300px;
+	margin: auto;
+	padding: 0;
+	position: absolute;
+	top: 30%;
+	left: 70%;
+	background-image: url(OITNB.jpg)
+}
+p.AA {
+	border: 5px solid #cccccc;
+	border-color: #1abc9c;
+	padding: 20px;
+	width: 400px;
+	margin: auto;
+	top: 30%;
+	left: 30%;
+	position: absolute;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.Movie1 {
+	color: white;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+
+.trailer {
+  	position: absolute;
+	top: 60%;
+	left: 25%;
+	height: 30px;
+	width: 250px;
+	color: black;
+	background-color: #e84118;
+	border-radius: 15px;
+	border:0px;
+}
+
+.watchnow {
+	  	position: absolute;
+  	padding: 0px;
+	top: 60%;
+	left: 50%;
+	height: 30px;
+	width: 250px;
+	color: black;
+	background-color:#e84118;
+	border-radius: 15px;
+	border:0px;
+}
+
+.watchnow1 {
+	  	position: absolute;
+  	padding: 0px;
+	top: 60%;
+	left: 35%;
+	height: 30px;
+	width: 250px;
+	color: black;
+	background-color:#e84118;
+	border-radius: 15px;
+	border:0px;
+}
+
+.facebook {
+		  	position: absolute;
+  	padding: 0px;
+	top: 30%;
+	left: 40%;
+	height: 30px;
+	width: 250px;
+	color: white;
+	background-color:blue;
+	border-radius: 15px;
+	border:0px;
+}
+
+.twitter {
+	position: absolute;
+  	padding: 0px;
+	top: 40%;
+	left: 40%;
+	height: 30px;
+	width: 250px;
+	color: white;
+	background-color:#00a8ff;
+	border-radius: 15px;
+	border:0px;
+}
+
+.youtube {
+	position: absolute;
+	border:0px;
+  	padding: 0px;
+	top: 50%;
+	left: 40%;
+	height: 30px;
+	width: 250px;
+	color: white;
+	background-color:#e84118;
+	border-radius: 15px;
+}
+
+.box {
+	position: absolute;
+	border:0px;
+	top: 60%;
+	left: 60%;
+	height: 30px;
+	width: 250px;
+	color: black;
+	background-color: #e84118;
+	border-radius: 15px;
+}
